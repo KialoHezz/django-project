@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <head>
-    <title>Django -</title>
+    <title>{% block title %}Hezron{% endblock %}</title>
 </head>
 <body>
-    <p>base template</p>            
+    <div id="content", name="content">
+        {% block content %}         
+        {% endblock %}
+    </div>
 </body>
 </html>

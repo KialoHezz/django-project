@@ -7,7 +7,7 @@ def index(response, id):
     # query certain or perticular object with id=1
     item = ls.item_set.get(id=1)
 
-    return render(response, "main/base.html", {})
+    return render(response, "main/base.html", {"name":ls.name})
  
 def home(response):
     return render(response, "main/home.html")
