@@ -23,3 +23,6 @@ $ python3 manage.py shell
     >>> t = ToDOList.objects
     >>> t.all()
     >>> t.filter(name__startswith="H")
+
+    # Acces Admin account :
+        Create super user
