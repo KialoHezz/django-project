@@ -17,3 +17,9 @@ $ python3 manage.py shell
     % Add Items becoz  or r/ship created
     >>> t.item_set.create(text="Go to the Mall", complete=False)
     >>>  t.item_set.all()
+
+    % FILTER : 
+    >>> from nav.models import ToDoList, Item
+    >>> t = ToDOList.objects
+    >>> t.all()
+    >>> t.filter(name__startswith="H")
