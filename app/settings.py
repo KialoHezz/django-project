@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # third parties
-    "crispy_forms",
+    'crispy_forms',
     # own
     'nav',
     'register',
@@ -125,6 +125,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+# CRISPY_ALLOW_TEMPLATE_PACK ="bootstrap4"
 CRISPY_TEMPLATE_PACK="bootstrap4"
 
 # Default primary key field type
